@@ -4,7 +4,6 @@
 #include<assert.h>
 #include<stdbool.h>
 
-
 typedef struct BinaryTreeNode* QDataType;
 
 typedef struct QueueNode

@@ -45,7 +45,7 @@ bool QueueEmpty(Queue* pq)
 void QueuePop(Queue* pq)
 {
 	assert(pq);
-	assert(!QueueEmpty(pq));
+	//assert(!QueueEmpty(pq));
 	//只有一个结点的情况
 	if (pq->phead == pq->ptail)
 	{
@@ -66,7 +66,7 @@ void QueuePop(Queue* pq)
 QDataType QueueFront(Queue* pq)
 {
 	assert(pq);
-	assert(!QueueEmpty(pq));
+	//assert(!QueueEmpty(pq));
 	return pq->phead->data;
 }
 
@@ -74,7 +74,7 @@ QDataType QueueFront(Queue* pq)
 QDataType QueueBack(Queue* pq)
 {
 	assert(pq);
-	assert(!QueueEmpty(pq));
+	//assert(!QueueEmpty(pq));
 	return pq->ptail->data;
 }
 
@@ -89,7 +89,7 @@ int QueueSize(Queue* pq)
 void QueueDestroy(Queue* pq)
 {
 	assert(pq);
-	assert(!QueueEmpty(pq));
+	//assert(!QueueEmpty(pq));
 	QueueNode* pcur = pq->phead;
 	while (pcur)
 	{
