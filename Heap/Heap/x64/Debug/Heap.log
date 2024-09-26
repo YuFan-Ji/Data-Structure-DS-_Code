@@ -1,0 +1,5 @@
+﻿  Heap.c
+  test.c
+  正在生成代码...
+D:\BiTeStudy\数据结构\Heap\Heap\test.c(18,17): warning C4013: “HPTop”未定义；假设外部返回 int
+  Heap.vcxproj -> D:\BiTeStudy\数据结构\Heap\x64\Debug\Heap.exe
