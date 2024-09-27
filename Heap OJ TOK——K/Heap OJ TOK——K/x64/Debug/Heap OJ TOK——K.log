@@ -1,0 +1,3 @@
+﻿  test.c
+D:\BiTeStudy\数据结构\Heap OJ TOK——K\Heap OJ TOK——K\test.c(97,8): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Heap OJ TOK——K.vcxproj -> D:\BiTeStudy\数据结构\Heap OJ TOK——K\x64\Debug\Heap OJ TOK——K.exe
